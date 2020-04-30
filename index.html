@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap">
+
+<style>
+   body,h1,h5 {font-family: 'Open Sans Condensed', sans-serif;}
+   body, html {height: 100%}
+
+   .bgimg {background-image: url('background.jpg');
+   min-height: 100%; background-position: center; background-size: cover;}
+
+   * {box-sizing: border-box}
+   .mySlides {display: none}
+   img {vertical-align: middle;}
+   @-webkit-keyframes fade {from {opacity: .4} to {opacity: 1}}
+   @keyframes fade {from {opacity: .4} to {opacity: 1}}
+
+
+</style>
+</head>
+
+<body>
+
+<link rel="shortcut icon" href="https://www.loftgym.com/wp-content/uploads/2018/11/logo.png" type="blacklogo.png"/>
+
+  <div class="topnav">
+      <a href="index.html"> <p><button class="button blue">Home</button></p> </a>
+      <a href="workouts.html"> <p><button class="button blue">Workouts</button></p> </a>
+      <a href="membership.html"> <p><button class="button blue">Membership</button></p> </a>
+      <a href="location.html"> <p><button class="button blue">Location</button></p> </a>
+      <a href="contact.html"> <p><button class="button blue">Contact Us</button></p> </a>
+      <img src="f45 logo.jpg" alt="logo" style="float:right;margin:10px 20px 0 0;width:110px;height:85px;">
+  </div>
+
+
+
+  <header class="container btheme padding">
+    <div class="center">
+      <h1 class="text-blue xxxlarge" <font size="+2.5">Welcome to F45!</h1>
+  </header>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <img src="front1.jpg" style="width:100%;height:100%;">
+  </div>
+  <div class="mySlides fade">
+  <img src="front2.jpg" style="width:100%;height:100%;">
+  </div>
+  <div class="mySlides fade">
+  <img src="front3.jpg" style="width:100%;height:100%;">
+  </div>
+
+
+ <a class="prev" onclick="plusSlides(-1)"> &#10096;</a>
+ <a class="next" onclick="plusSlides(1)"> &#10097;</a>
+ </div>
+
+ <div style="text-align:center">
+ <span class="dot" onclick="currentSlide(1)"></span>
+ <span class="dot" onclick="currentSlide(2)"></span>
+ <span class="dot" onclick="currentSlide(3)"></span>
+
+ </div>
+
+ <script>
+   var slideIndex = 1; showSlides(slideIndex);
+   function plusSlides(n) {showSlides(slideIndex += n);}
+   function currentSlide(n) {showSlides(slideIndex = n);}
+   function showSlides(n) {var i; var slides = document.getElementsByClassName("mySlides"); var dots = document.getElementsByClassName("dot");
+   if (n > slides.length) {slideIndex = 1} if (n < 1) {slideIndex = slides.length}
+   for (i = 0; i < slides.length; i++) {slides[i].style.display = "none";}
+   for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" active", "");}
+   slides[slideIndex-1].style.display = "block"; dots[slideIndex-1].className += " active";}
+ </script>
+
+ <br><br>
+  <div class="container card padding">
+<h1 class="text-red xlarge" <font size="+1.5">What is F45?</h1>
+<p class="text-blue large" <font size="+2.5">THE F STANDS FOR FUNCTIONAL TRAINING, A MIX OF CIRCUIT AND HIIT STYLE WORKOUTS GEARED TOWARDS EVERYDAY MOVEMENT. 45 IS THE TOTAL AMOUNT OF TIME FOR SWEAT-DRIPPING, HEART-PUMPING FUN.</p>
+   <center>
+<br><iframe width="75%" height="600" src="https://www.youtube.com/embed/Wl5hN8NA71U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>   <a href="https://f45training.com/new-to-f45/"> <p><button class="button red">Click Here to Find out more!</button></p></a>
+  </center>
+  </div>
+
+   </div>
+  </center>
+
+ <br><br>
+  <header class="container btheme padding">
+    <div class="center">
+      <h1 class="text-blue xxlarge" <font size="+2.5"><b>TEAM TRAINING LIFE CHANGING</b></h1>
+      <h1 class="text-blue xlarge" <font size="+2.5">F45 Training is a global fitness community specializing in innovative, high-intensity group workouts that are fast, fun, and results-driven.<br>F45 Training workouts are designed to unify the muscle groups of the body to help you move and feel stronger in all aspects of your life.</h1>
+  </div></header>
+
+
+<div class="container card padding">
+<div class="half">
+<h4 class="text-black xxlarge" style="float:left;margin: 10px 10px 0 20px;"<font size="+2.5"><b>INNOVATION.</b></h4><br><br><hr>
+<h4 class="text-black large" style="float:left;margin: 0px 0px 0 20px;"<font size="+2.5">Our functional training classes continuously evolve <br>so virtually no two workouts are ever the same!</h4>
+</div>
+<div class="half">
+<img src="innovation.png" alt="results" style="width:100%;height:100%">
+</div> </div>
+
+
+<div class="container card padding">
+<div class="half">
+<img src="motication.jpg" alt="results" style="width:100%;height:100%">
+</div>
+<div class="half">
+<h4 class="text-black xxlarge" style="text-align:right;"<font size="+2.5"><b>MOTIVATION.</b></h4><hr>
+<h4 class="text-black large" style="text-align:right;"<font size="+2.5">The motivation and encouragement <br>in a group training facility creates a <br>pulsing, upbeat environment<br> where goals are met and exceeded.</h4>
+</div></div>
+
+<div class="container card padding">
+<div class="half">
+<h4 class="text-black xxlarge" style="float:left;margin: 10px 10px 0 20px;"<font size="+2.5"><b>RESULTS.</b></h4><br><br><hr>
+<h4 class="text-black large" style="float:left;margin: 0px 0px 0 20px;"<font size="+2.5">When it comes to weight management, good nutrition is vital.<br>F45 gives all members access to their own free personal nutrition program to achieve health objectives with daily meal plans, tracking, and community support.<br> Welcome to the F45 Challenge.</h4>
+</div>
+<div class="half">
+<img src="results.jpg" alt="results" style="width:100%;height:100%">
+</div>
+
+
+
+</div>
+</div>
+
+
+  <header class="container rtheme padding">
+    <div class="center"><br>
+      <h1 class="text-white xxxlarge" <font size="+1.5"><b>READY FOR SOME LIFE CHANGING TEAM TRAINING?</b></h1><br>
+  </header>
+<hr>
+<br><br>
+<div class="social-list">
+<a href="https://www.facebook.com/F45FunctionalTraining" target="_blank"><i class="fa fa-facebook"></i></a>
+<a href="https://twitter.com/F45TRAINING" target="_blank"><i class="fa fa-twitter"></i></a>
+<a href="https://instagram.com/f45_training/" target="_blank"><i class="fa fa-instagram"></i></a>
+<a href="https://www.youtube.com/user/F45Training" target="_blank"><i class="fa fa-youtube-play"></i></a>
+</div>
+</body>
+</html>

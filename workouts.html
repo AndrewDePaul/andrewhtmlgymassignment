@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap">
+
+<style>
+   body,h1,h2,h3,h4,h5 {font-family: 'Open Sans Condensed', sans-serif;}
+   body, html {height: 100%}
+
+   .bgimg {background-image: url('background.jpg');
+   min-height: 100%; background-position: center; background-size: cover;}
+
+
+.mySlides1, .mySlides2, .mySlides3 {
+	display: none
+}
+img {
+	vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin:0 auto 25px;
+}
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* Position the "prev button" to the left */
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+	background-color: #f1f1f1;
+	color: black;
+}
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+ @-webkit-keyframes fade {
+ from {
+opacity: .4
+}
+to {
+	opacity: 1
+}
+}
+ @keyframes fade {
+ from {
+opacity: .4
+}
+to {
+	opacity: 1
+}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next, .text {
+	font-size: 11px
+}
+}
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+</style>
+</head>
+
+<body>
+
+  <div class="topnav">
+      <a href="index.html"> <p><button class="button blue">Home</button></p> </a>
+      <a href="workouts.html"> <p><button class="button blue">Workouts</button></p> </a>
+      <a href="membership.html"> <p><button class="button blue">Membership</button></p> </a>
+      <a href="location.html"> <p><button class="button blue">Location</button></p> </a>
+      <a href="contact.html"> <p><button class="button blue">Contact Us</button></p> </a>
+      <img src="f45 logo.jpg" alt="logo" style="float:right;margin:10px 20px 0 0;width:110px;height:85px;">
+  </div>
+
+  <header class="container btheme padding">
+    <div class="center">
+      <h1 class="text-blue xxxlarge" <font size="+2.5">WHY F45 WORKS?</h1>
+  </header>
+
+<div class="container card padding">
+<div class="half">
+<img src="second1.jpg" alt="results" style="width:100%;height:100%">
+</div>
+<div class="half">
+<h4 class="text-black xxlarge" style="text-align:right;"<font size="+2.5"><b>LEADERS IN FUNCTIONAL TRAINING & SPORT SCIENCE</b></h4><hr>
+<h4 class="text-black xlarge" style="text-align:right;"<font size="+2.5">The F45 Athletics and Peak Performance Department is comprised of leading training professionals, athletes, and exercise scientists from around the world all dedicated to the research and development of F45 Training workouts. Under the guidance of our co-CEOs, this department is tirelessly investigating current and emerging training concepts as well as tweaking and fine-tuning existing training regimens.</h4>
+</div></div>
+
+
+<div class="container card padding">
+<div class="half">
+<h4 class="text-black xxlarge" style="float:left;margin: 10px 10px 0 20px;"<font size="+2.5"><b>FUNCTIONAL TRAINING</b></h4><br><br><hr>
+<h4 class="text-black xlarge" style="float:left;margin: 0px 0px 0 20px;"<font size="+2.5">Functional training is the engagement in exercises that mimic or recreate everyday movement. These types of exercises typically involve the use of your full body and multiple muscle groups. This style of training builds and sculpts lean, functional muscle. Lifting, squatting, jumping, twisting, pulling, pushing, punching, kicking, rowing, biking – all of these movements qualify as functional and all can be found at F45 Training to help make you look, move and perform better in all aspects of your life.</h4>
+</div>
+<div class="half">
+<img src="second2.jpg" alt="results" style="width:100%;height:100%">
+</div> </div>
+
+
+<div class="container card padding">
+<div class="half">
+<img src="second3.jpg" alt="results" style="width:100%;height:100%">
+</div>
+<div class="half">
+<h4 class="text-black xxlarge" style="text-align:right;"<font size="+2.5"><b>INDUSTRY-LEADING TECHNOLOGY</b></h4><hr>
+<h4 class="text-black xlarge" style="text-align:right;"<font size="+2.5">Our workouts are fueled and organized by the robust technology systems that we have in place in all of our studios. A series of TVs mounted on the front wall of our studios provide an organized, station-by-station diagram for each daily workout. With the guidance and motivation of the F45 Trainers, this system is a visual tool for our members to progress from exercise station to station throughout the workout. Integrated with F45TV, LionHeart gives you the power to accurately track your workouts, monitor your heart rate, the percentage of your maximum effort, and the total calories burned to help you reach your true potential.</h4>
+</div></div>
+
+<div class="container card padding">
+<div class="half">
+<h4 class="text-black xxlarge" style="float:left;margin: 10px 10px 0 20px;"<font size="+2.5"><b>BUILDING A COMMUNITY</b></h4><br><br><hr>
+<h4 class="text-black xlarge" style="float:left;margin: 0px 0px 0 20px;"<font size="+2.5">The employment of our functional and circuit training workouts in a Team Training atmosphere is the final factor fueling F45 Training’s dynamism. The motivation and encouragement in a Group Training facility create a pulsing, upbeat environment where goals are met and exceeded. Communities promoting fitness, good health and growth are forged in F45 studios around the world and are the source of our strength as an international brand.</h4>
+</div>
+<div class="half">
+<img src="second4.jpg" alt="results" style="width:100%;height:100%">
+</div>
+
+</div>
+<br>
+
+  
+
+
+
+<header class="container btheme padding">
+    <div class="center">
+      <h1 class="text-blue xxxlarge" <font size="+2.5"><b>SPLIT BT SCIENCE</b></h1>
+      <h1 class="text-blue xxlarge" <font size="+2.5"> F45 Training combines elements of high- intensity interval training (HIIT), circuit training, and functional training. The variation of our workout programming keeps our members challenged, eager to grow and ready to have fun.</h1>
+  </header>
+ <div class="row-padding center margin-top">
+
+
+
+   <div class="third"  style="float:left;">	
+   <div class="slideshow-container" style="height:500px;">
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Cardio</h2><br>
+     <img src="man.png" alt="cardio" width="100%;max-width:262px">
+        <h5> At F45, we like our workouts to encompass using different energy systems for a maximum burn. Our specially curated cardio workouts will use plyometric movements, timing and tempo to blast both your aerobic and anaerobic systems, resulting in fat burning, muscle building and metabolism boosting sessions. Bring your A Game to these high energy sessions and really put your stamina and endurance to the test! </h5>
+     <h5><b>Every Mon, Wed, Fri</b></h5>
+        </div>
+  </div>
+  
+<div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>22</h2><br>
+     <img src="cardio1.png" alt="cardio1" width="100%;max-width:262px">
+        <h5> 22 one of F45’s most infamous cardiovascular workouts, with longer sets and shorter rest periods to get you breathing heavy and feeling the burn (up to 1,000 calories of it, actually). Total-body cardio movements come together with elements of core strengthening to make 22 a dynamic, exciting session that will keep you guessing. Bring an extra towel for this one, it will get sweaty.</h5>
+        </div>
+  </div>
+  
+<div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Abacus</h2><br>
+     <img src="cardio2.jpg" alt="cardio1" width="100%;max-width:262px">
+        <h5> Abacus is an F45 favorite that is cardio-focused with fewer stations and a twist: increasing work time, then decreasing work time over the workout duration. Climbing and descending repetitions in this fitness pyramid is a fun, intense test of your cardio capacity. Don’t underestimate the simplicity of this 6-station session; Abacus will leave you drenched and gasping, asking where all those inches on your waistline disappeared to.</h5>
+        </div>
+  </div>
+
+<div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Athletica</h2><br>
+     <img src="cardio3.png" alt="cardio3" width="100%;max-width:262px">
+        <h5>Athletica is a declaration of war against body fat. This is no slow and steady walk in the park, it’s an intense cardio workout designed to establish and build a strong aerobic foundation, pushing you into the fat-burning zone and sculpting a lean, toned body. TLDR: summer body here we come!</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Bears</h2><br>
+     <img src="cardio4.png" alt="cardio4" width="100%;max-width:262px">
+        <h5>Bears is a staple F45 cardio-based session that relies on explosive, plyometric training using little more than your own body weight as resistance. This emphasis on power and stability with longer work periods packs a powerful cardio punch, so don’t be surprised if your arms and legs are still shaking hours later.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Brixton</h2><br>
+     <img src="cardio5.jpg" alt="cardio5" width="100%;max-width:262px">
+        <h5>While most of us aren’t likely to endure 12 rounds in a boxing ring, we've designed a workout that integrates elements of mixed martial arts, boxing, and self-defense that everyone can do. By mimicking combat skills, you’ll tap into some deep cardiovascular reserves, which means an unrivaled burn and leaving this session in lean, fighting shape.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Brooklyn</h2><br>
+     <img src="cardio6.png" alt="cardio6" width="100%;max-width:262px">
+        <h5>Similar to Brixton, Brooklyn is an intense workout designed to punch and kick the calories away.  This is high intensity cardio that mimics a real boxer’s workout session and will leave you sweating like you’ve just gone 12 rounds.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Docklands</h2><br>
+     <img src="cardio7.png" alt="cardio7" width="100%;max-width:262px">
+        <h5>We hear it a lot: interval training yields an unrivaled fat burn and total body fitness. Well, it’s true.  So F45 created Docklands: longer, more demanding periods of work and rest followed by shorter bursts of work and rest — all in a single workout.  Changing the duration of movements, or intervals of training, in one session confuses the body, keeps it from adapting, and builds rock-solid endurance.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Firestorm</h2><br>
+     <img src="cardio8.png" alt="cardio8" width="100%;max-width:262px">
+        <h5>How about a fast-moving, constantly-changing, but straightforward fat-burning workout that creatively uses bodyweight and equipment?  Meet Firestorm — a 27-station endorphin blast that eats up a boat load of calories and builds balance, endurance, and power through a wide range of movements. Pushing through Firestorm is not just about building a lean, sculpted body, but also about challenging your mind and coordination to push through all 27 stations.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Foxtrot</h2><br>
+     <img src="cardio9.png" alt="cardio9" width="100%;max-width:262px">
+        <h5>The focus of Foxtrot is to reach maximum cardio threshold and maintain it for as long as possible. There is virtually no stage of the workout where the activated heart rate should drop by more than 10-15%. This workout is designed to significantly increase aerobic fitness and endurance for our members.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Gravity</h2><br>
+     <img src="cardio10.png" alt="cardio10" width="100%;max-width:262px">
+        <h5>The Gravity session will accelerate your skills in becoming a better functioning athlete. The session will dramatically improve fitness levels, flexibility, mental toughness, plyometric skills, agility skills, and aerobic conditioning.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>MVP</h2><br>
+     <img src="cardio11.png" alt="cardio11" width="100%;max-width:262px">
+        <h5>This is not your average cardio workout. This is a cardio blast with an incredible twist. Following the first lap, half the exercises will flip into completely different movements. You will never quite get accustomed to this phenomenal cardio-only workout.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Pipeline</h2><br>
+     <img src="cardio12.png" alt="cardio12" width="100%;max-width:262px">
+        <h5>There is virtually zero rest in this session, as you tackle oncoming sets of 9 waves over and over. There is nowhere to hide in the whitewash as your heart rate will soar and stay there for the entire 45 minutes. Watch the heart rate monitors, as Pipeline produces incredible results with over 850 calories being burnt in the session.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Quarterbacks</h2><br>
+     <img src="cardio13.png" alt="cardio13" width="100%;max-width:262px">
+        <h5>The big game brings out the big plays and our QB session is designed to replicate the lateral, rapid fast twitch activation of an NFL game. Agility, resistance and power based cardio movements, see you move through offense and defense in this phenomenal workout.</h5>
+        </div>
+  </div>
+
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Templars</h2><br>
+     <img src="cardio14.png" alt="cardio14" width="100%;max-width:262px">
+        <h5>Training with a buddy has so many advantages over training on your own. The most obvious being longevity in your training life, increased enjoyment and fun whilst training, bringing out the competitive edge both mentally and physically, and most importantly, results. Templars is a workout designed to test cardiovascular endurance and mental strength over 14 intelligently selected partnered exercises.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Triple Double</h2><br>
+     <img src="cardio15.jpg" alt="cardio15" width="100%;max-width:262px">
+        <h5>Triple Double is sure to be a staple F45 cardiovascular workout and will crush your aerobic threshold, aid rapid fat loss, and like all of our HIIT sessions - it will have you torched by the end.  This is another tantalizing Tabata mash up, that will push you to your limits and get your body to continue working to build oxygen stores for 16 to 24 hours after you finish.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides1 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Varsity</h2><br>
+     <img src="cardio16.png" alt="cardio16" width="100%;max-width:262px">
+        <h5>Varsity is the ultimate cardio test. Combining various cardio timings into one workout, Varsity will test anyone’s cardio threshold. Three laps, all with different timings, make this an extremely innovative and enjoyable cardio blast.</h5>
+        </div>
+  </div>
+
+
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a> 
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  	<div style="text-align:center"> 
+  	<span class="dot" onclick="currentSlide(1,0)"></span> 
+  	<span class="dot" onclick="currentSlide(2,0)"></span> 
+  	<span class="dot" onclick="currentSlide(3,0)"></span>
+  	<span class="dot" onclick="currentSlide(4,0)"></span> 
+  	<span class="dot" onclick="currentSlide(5,0)"></span> 
+  	<span class="dot" onclick="currentSlide(6,0)"></span>
+  	<span class="dot" onclick="currentSlide(7,0)"></span> 
+  	<span class="dot" onclick="currentSlide(8,0)"></span> 
+  	<span class="dot" onclick="currentSlide(9,0)"></span>
+  	<span class="dot" onclick="currentSlide(10,0)"></span> 
+  	<span class="dot" onclick="currentSlide(11,0)"></span> 
+  	<span class="dot" onclick="currentSlide(12,0)"></span> 
+  	<span class="dot" onclick="currentSlide(13,0)"></span>
+  	<span class="dot" onclick="currentSlide(14,0)"></span> 
+  	<span class="dot" onclick="currentSlide(15,0)"></span> 
+  	<span class="dot" onclick="currentSlide(16,0)"></span>  
+  	</div>
+</div>
+</div>
+
+
+
+
+   
+
+
+
+   <div class="third">
+   <div class="slideshow-container" style="height:500px;">
+
+  <div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Resistance</h2><br>
+     <img src="RB.png" alt="resistance" width="100%;max-width:262px">
+        <h5>Resistance training is an essential for building both muscle mass and bone density. Our strength training sessions use functional movement patterns to help our members to increase their muscle mass, and in turn, burn more calories every day, even at rest. Each resistance workout is designed to target power and stabilization for a solid base of functional strength, resulting in stronger, leaner, more defined muscles.</h5>
+    <h5><b>Every Tues, Thurs, Sun</b></h5>
+        </div>
+  </div>
+  
+<div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>All Star</h2><br>
+     <img src="R1.png" alt="R1" width="100%;max-width:262px">
+        <h5>All Star’s goals are to get you moving faster and lifting heavier in a workout that uses weights & resistance training to activate fast twitch muscle fibers.  The result: strong, lean muscle mass and enhanced athleticism, improving a your more explosive movements like running and jumping. The burn doesn’t stop after the session ends, as that lean muscle fiber will keep you torching calories long after you’ve left the studio.</h5>
+        </div>
+  </div>
+  
+<div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Angry Bird</h2><br>
+     <img src="R2.png" alt="R2" width="100%;max-width:262px">
+        <h5>Don’t let Angry Bird scare you — it’s a positive shock to the system to build lean muscle, strength, & endurance. The workout is dynamic, using varied tempos and resistance to challenge your body’s upper, lower, and core muscles. The goal is to keep the body guessing, and keep the calories burning even after the workout.</h5>
+        </div>
+  </div>
+
+<div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Mkatz</h2><br>
+     <img src="R3.jpg" alt="R3" width="100%;max-width:262px">
+        <h5>Mkatz is the new drop set workout on the block. A completely different test for those looking to build quality lean muscle mass. Building quality muscle is not only about compound lifting. We want to challenge muscles on different angles, with different timing, and various tempos. You will love the drop set nature of this workout.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Moon Hopper</h2><br>
+     <img src="R4.png" alt="R4" width="100%;max-width:262px">
+        <h5>Moon Hopper is the latest, insane 18-station resistance workout created by F45. This workout will test the mind, the body and have you bewildered throughout the intense circuit. Quite simply, you just cannot settle into this workout.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Panthers</h2><br>
+     <img src="R5.png" alt="R5" width="100%;max-width:262px">
+        <h5>Panthers is a resistance-based workout, with the key premise built on overload. Overloading muscles and working towards muscle “fatigue” and “failure” is the primary focus within a Panthers session.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Pegasus</h2><br>
+     <img src="R6.png" alt="R6" width="100%;max-width:262px">
+        <h5>This 45 minute HIIT resistance session will break down muscles to the core. The addition of bodyweight and abdominal sets guarantees the heart is racing throughout this innovative session.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Red Diamond</h2><br>
+     <img src="R7.jpg" alt="R7" width="100%;max-width:262px">
+        <h5>Red Diamond is a resistance-based workout, with the key premise being an exaggerated overload tactic. Taking key points from flagship favourites Romans and Panthers, the result is a tough, uncompromising workout, which will guarantee muscle fatigue. The key focus on this workout will be tempo (the speed at which we perform exercises) and the range of movement. We are extremely excited to launch Red Diamond into our growing network.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Renegade</h2><br>
+     <img src="R8.png" alt="R8" width="100%;max-width:262px">
+        <h5>Heavy compound lifts and muscular overload is what to expect when entering the studio for a Renegades session. This resistance overload focused session will see you super-setting heavy lifts with the same push or pull movement, whilst also attacking the core as an active recovery.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides2 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Romans</h2><br>
+     <img src="R9.png" alt="R9" width="100%;max-width:262px">
+        <h5>Romans is F45’s original resistance based workout, consisting of large compound lifts with maximum rest periods. The focus for each member should be to lift as heavy as they can, every single set. Romans is designed to make you stronger and more powerful.</h5>
+        </div>
+  </div>
+
+
+
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a> 
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  	<div style="text-align:center"> 
+  	<span class="dot" onclick="currentSlide(1,1)"></span> 
+  	<span class="dot" onclick="currentSlide(2,1)"></span> 
+  	<span class="dot" onclick="currentSlide(3,1)"></span>
+  	<span class="dot" onclick="currentSlide(4,1)"></span> 
+  	<span class="dot" onclick="currentSlide(5,1)"></span> 
+  	<span class="dot" onclick="currentSlide(6,1)"></span> 
+  	<span class="dot" onclick="currentSlide(7,1)"></span> 
+  	<span class="dot" onclick="currentSlide(8,1)"></span> 
+  	<span class="dot" onclick="currentSlide(9,1)"></span> 
+  	</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+   <div class="third" style="float:right;background-color:white">
+   <div class="slideshow-container" style="height:500px;">
+
+  <div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Hybrid</h2><br>
+     <img src="hy.png" alt="cardio" width="100%;max-width:262px">
+        <h5>Get the best of both worlds by trying out one of our hybrid sessions! Combining our favorite cardio, resistance, agility and core movements, for an epic burn that increases your endurance, fires up your metabolism and improves your strength. In these sessions you’ll leave everything out on the floor to challenge both your body and your mind.<br><br></h5>
+	<h5><b>Every Sat</b></h5>
+        </div>
+  </div>
+  
+<div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>3-Peat</h2><br>
+     <img src="hybrid1.png" alt="hybrid1" width="100%;max-width:262px">
+        <h5>3-Peat is an intense workout integrating a mix of movements that will test your power, agility, and cardiovascular endurance. One of the only F45 workouts where we count our reps, 3-Peat lets you find your best and beat it. The result: a broader insight into your overall fitness, allowing you to set goals and crush them for sustained, noticeable (brag-worthy) improvements over time.</h5>
+        </div>
+  </div>
+  
+<div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Hollywood</h2><br>
+     <img src="hybrid2.png" alt="hybrid2" width="100%;max-width:262px">
+        <h5>The climax of the week; DJ pumping, electric atmosphere, 60 minutes of focus combining the best of strength, cardio, agility, speed, power and high 5’s galore. The pinnacle showcase of F45 right here.</h5>
+        </div>
+  </div>
+
+<div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Loyals</h2><br>
+     <img src="hybrid3.png" alt="hybrid3" width="100%;max-width:262px">
+        <h5>Loyals is a hybrid style workout, hitting the best of both cardio and resistance movements at a respective 2:1 ratio. During the Loyals workout you will experience muscle fatigue, and a rigorous test of muscle endurance and aerobic threshold.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Miami Nights</h2><br>
+     <img src="hybrid4.png" alt="hybird4" width="100%;max-width:262px">
+        <h5>The focus of this highly functional hybrid style workout is to unleash the inner functional athlete in you. Combining functional cardio, functional resistance and bodyweight training, this workout will test all participants.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Mont Blanc</h2><br>
+     <img src="hybrid5.png" alt="hybird5" width="100%;max-width:262px">
+        <h5>Mont Blanc is the newest addition to our sports-specific workout portfolio. This is a revolutionary workout, mimicking the particular movements a skier would practice before a high level event. The loose count of global skiers is set to surpass circa 150mn this year, so we love tapping into this niche. You’ll love the increase in your cardiovascular endurance, proprioception, lower body & core strength, as well as the improvements in your flexibility, balance and coordination. Mont Blanc will be a great test for all ages, and skill levels.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>T10</h2><br>
+     <img src="hybrid6.png" alt="hybird6" width="100%;max-width:262px">
+        <h5>An innovative and creative 50/50 split of cardio and resistance ensures that throughout this 10-station workout, the heart is racing relentlessly. Minimal abs and core, just functional resistance and functional cardio movements.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>West Hollywood</h2><br>
+     <img src="hybrid7.jpg" alt="hybird7" width="100%;max-width:262px">
+        <h5>The benefits of West Hollywood are endless. They also go well beyond physical. The friends, atmosphere and electric vibe will be the most rewarding start to a weekend you can get anywhere in the world. Lookout for the slight twist in timing, giving this a little upgrade on Hollywood.</h5>
+        </div>
+  </div>
+
+  <div class="mySlides3 fade">
+  <div class="card container" style="min-height:360px;">
+     <h2><b>Wingman</h2><br>
+     <img src="hybrid8.png" alt="hybird8" width="100%;max-width:262px">
+        <h5>Wingman is an extremely innovative, fun and demanding workout that uses the age-old technique of overload to achieve gains. Always performed in a safe and controlled format, members work at their own maximum capacity within the given 35 seconds of effort.</h5>
+        </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a> 
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+  	<div style="text-align:center"> 
+  	<span class="dot" onclick="currentSlide(1,2)"></span> 
+  	<span class="dot" onclick="currentSlide(2,2)"></span> 
+  	<span class="dot" onclick="currentSlide(3,2)"></span>
+  	<span class="dot" onclick="currentSlide(4,2)"></span> 
+  	<span class="dot" onclick="currentSlide(5,2)"></span> 
+  	<span class="dot" onclick="currentSlide(6,2)"></span>
+	<span class="dot" onclick="currentSlide(7,2)"></span> 
+  	<span class="dot" onclick="currentSlide(8,2)"></span>    
+  	</div>
+</div>
+</div>
+
+
+<script>
+var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2","mySlides3"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+function currentSlide(n, no) {
+  showSlides(slideIndex[no] = n, no);
+}
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+</div>
+</div>
+
+
+
+
+
+
+</body>
+<br><br><br><br><br><br><br><br><br><br><hr>
+
+  <header class="container rtheme padding">
+    <div class="center">
+<br>
+      <h4 class="text-white xxlarge" <font size="+1.5"><b>START YOUR FIRST CLASS. JOIN THE F45 COMMUNITY</b></h4>
+<br>
+  </header>
+<hr>
+   
+</html>
